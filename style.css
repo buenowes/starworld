@@ -300,7 +300,7 @@ footer h3 {
     align-items: center;
     justify-content: center;
     margin-right: 2%;
-    font-size: 2.5rem;
+    font-size: 1rem;
     color: rgb(219, 168, 14);
     font-weight: 400;
 }
@@ -380,7 +380,7 @@ footer h3 a {
         justify-content: center;
     }
     p {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 
     footer h3 {
