@@ -22,7 +22,7 @@ html {
 header img {
     height: 150px;
     width: 150px;
-    margin-left: 45%;
+    margin-left: 30%;
     object-fit: contain;
     display: flex;
     align-items: center;
@@ -40,7 +40,7 @@ img {
 }
 
 p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-top: 5px;
     line-height: 2.5rem;
     font-weight: 400;
@@ -56,7 +56,7 @@ p {
 }
 
 .characters-title {
-    font-size: 6rem;
+    font-size: 3rem;
     font-weight: bold;
     color: rgb(219, 168, 14);
     margin-bottom: 10px;
@@ -198,12 +198,12 @@ p {
 }
 
 #characters .character-info h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
 #characters .character-info h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-top: 10px;  
 }
@@ -334,7 +334,7 @@ footer h3 a {
 }
 
 /* ------------------------MEDIAQUERY---------------------*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 764px) {
     #characters .character-item {
         flex-direction: row;
         height: 400px;
@@ -354,24 +354,69 @@ footer h3 a {
     #characters .character-item:nth-child(even) {
         flex-direction: row-reverse;
     }
-}
 
-@media only screen and (max-width: 768px) {
     .characters-title {
         font-size: 4rem;
+    }
+
+    #characters .character-info h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    
+    #characters .character-info h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: 10px;  
     }
 
     header img {
         height: 150px;
         width: 150px;
-        margin-left: 33%;
+        margin-left: 45%;
+        object-fit: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    p {
+        font-size: 1.6rem;
+    }
+
+    footer h3 {
+        font-size: 1.6rem;
+    }
+}
+@media only screen and (min-width: 1020px) {
+    .characters-title {
+        font-size: 6rem;
+    }
+    
+    #characters .character-info h1 {
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    
+    #characters .character-info h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-top: 10px;  
+    }
+
+    header img {
+        height: 150px;
+        width: 150px;
+        margin-left: 47%;
         object-fit: contain;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
+    p {
+        font-size: 1.8rem;
+    }
     footer h3 {
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
 }
